@@ -1,0 +1,33 @@
+.questions{
+    background: $light-gray;
+    display: flex;
+    &__bg{
+        width: 50%;
+    }
+    &__surgeon{
+        position: relative;
+        right: 0;
+    }
+    &__form{
+        padding-top: 97px;
+        display: flex;
+        flex-direction: column;
+        select, input{
+            width: 696px;
+            height: 78px;
+            font-size: 25px;
+            font-weight: 300;
+            letter-spacing: 0.50px;
+            margin-bottom: 24px;
+            border: none;
+            padding: 0 30px;
+        }
+    }
+    &__title{
+        margin-bottom: 65px;
+        font-size: 41px;
+        font-weight: 300;
+        letter-spacing: 0.82px;
+        text-transform: uppercase;
+    }
+}
