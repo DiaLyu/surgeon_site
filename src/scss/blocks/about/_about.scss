@@ -1,0 +1,87 @@
+.about{
+    background: $light-blue;
+    padding: 80px 0;
+    position: relative;
+
+    .container {
+        display: flex;
+    }
+
+    &__data{
+        position: relative;
+        z-index: 5;
+        width: 685px;
+        &__name{
+            font-size: 58px;
+            font-weight: 400;
+            letter-spacing: 5.22px;
+            line-height: 65px;
+            margin-bottom: 45px;
+            span {
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+        }
+        &__post{
+            color: #4C6E9A;
+            font-size: 25px;
+            font-weight: 400;
+            letter-spacing: 0.50px;
+            margin-bottom: 35px;
+            width: 565px;
+        }
+        &__descr{
+            font-size: 25px;
+            font-weight: 300;
+            letter-spacing: 0.50px;
+            margin-bottom: 24px;
+            span{
+                font-weight: 500;
+            }
+        }
+    }
+    &__facts{
+        position: relative;
+        z-index: 15;
+    }
+    &__fact{
+        display: flex;
+        margin-bottom: 27px;
+        margin-top: 20px;
+        &__descr{
+            width: 196px;
+            text-align: end;
+            color: $sec-dark-blue;
+            font-size: 25px;
+            font-weight: 500;
+            letter-spacing: 2.25px;
+            text-transform: uppercase;
+            line-height: 32px;
+            margin-right: 12px;
+        }
+        &__count{
+            position: relative;
+            top: -10px;
+            color: #4D6E9B;
+            font-size: 65px;
+            font-family: 'Rosa Marena', sans-serif;
+            font-weight: 500;
+            letter-spacing: 5.85px;
+        }
+    }
+    &__bcgr-right{
+        position: absolute;
+        background: $about_bg;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 50%;
+        height: 100%;
+    }
+    &__photo{
+        z-index: 10;
+        position: absolute;
+        bottom: -4px;
+        right: 0;
+    }
+}

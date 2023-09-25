@@ -1,0 +1,50 @@
+.offer{
+    background: $gray-bg;
+    padding: 88px 0 52px 0;
+    display: flex;
+    justify-content: center;
+    &__wrapper{
+        position: relative;
+        display: flex;
+    }
+    &__title{
+        position: absolute;
+        font-size: 58px;
+        font-weight: 300;
+        letter-spacing: 5.22px;
+        text-transform: uppercase;
+        margin: 45px 0 0 146px;
+    }
+    &__form{
+        background: $modal-bg;
+        padding: 190px 59px 57px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        select, input{
+            width: 466px;
+            height: 78px;
+            padding: 25px 30px;
+            font-size: 25px;
+            font-weight: 300;
+            letter-spacing: 0.50px;
+            border: none;
+        }
+        &__submit{
+            background: $dark-blue;
+            color: white;
+            font-size: 25px;
+            font-weight: 300;
+            letter-spacing: 2.25px;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+.surgeon-head{
+    background: $gray-bg;
+    img{
+        width: 100%;
+    }
+}

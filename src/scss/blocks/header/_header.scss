@@ -1,0 +1,121 @@
+header {
+    background: $gray-bg;
+    padding: 32px 0 33px 0;
+    .connection{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 35px;
+
+        &__social{
+            display: flex;
+            width: 150px;
+            justify-content: space-between;
+            &-item{
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100%;
+            }
+        }
+
+        form {
+            width: 500px;
+            position: relative;
+            input {
+                width: 100%;
+                height: 42px;
+                border: none;
+                background: #EAEEF3;
+                border-bottom: 1px solid #D9D9D9;
+                padding: 0 20px;
+                font-weight: 300;
+                font-size: 14px;
+            }
+            button{
+                bottom: 7px;
+                right: 20px;
+                border: none;
+                background: transparent;
+                position: absolute;
+            }
+        }
+
+        &__contacts{
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 30px;
+            &::before{
+                content: url('../icons/phone.png');
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                position: relative;
+                top: 5px;
+            }
+        }
+
+        &__signup{
+            width: 95px;
+            display: flex;
+            justify-content: center;
+        }
+
+        &__button{
+            border: none;
+            background: transparent;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 14px;
+            color: $dark-gray;
+            padding: 8px 0;
+            &:hover{
+                color: #4C6E9A;
+                border-bottom: 2px solid #4C6E9A;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .menu{
+        display: flex;
+        flex-flow: row nowrap;
+        list-style-type: none;
+        justify-content: space-between;
+        font-weight: 300;
+        font-size: 18px;
+        text-transform: uppercase;
+        &__item{
+            flex: 0 1 auto;
+            margin-right: 10px;
+            &:hover{
+                margin-right: 6px;
+            }
+            &:nth-child(3){
+                &:hover{
+                    margin-right: 1px;
+                }
+            }
+            &:nth-child(7){
+                &:hover{
+                    margin-right: 2px;
+                }
+            }
+            &:nth-child(5), &:nth-child(6){
+                &:hover{
+                    margin-right: 7px;
+                }
+            }
+        }
+        &__link{
+            padding: 7px 0;
+            &:hover{
+                border-bottom: 2px solid #4C6E9A;
+                color: #4C6E9A;
+                font-weight: 500;
+            }
+        }
+    }
+}
