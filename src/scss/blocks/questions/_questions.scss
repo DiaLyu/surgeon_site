@@ -3,6 +3,7 @@
     display: flex;
     &__bg{
         width: 50%;
+        position: relative;
     }
     &__surgeon{
         position: relative;
@@ -30,4 +31,24 @@
         letter-spacing: 0.82px;
         text-transform: uppercase;
     }
+}
+
+.blue-square{
+    width: 204px;
+    height: 204px;
+    background: #4C6E9A;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 44%;
+}
+.white-rectangle{
+    height: 198px;
+    width: 80%;
+    position: absolute;
+    background: #ffffff;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    opacity: 66%;
 }

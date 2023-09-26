@@ -1,0 +1,100 @@
+.footer{
+    background: $footer-price;
+    padding: 47px 0;
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    &__logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        img{
+            margin-bottom: 45px;
+        }
+        &__year{
+            color: white;
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 1.62px;
+            margin-bottom: 15px;
+        }
+    }
+    &__menu{
+        list-style-type: none;
+        &__item{
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 1.62px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        }
+        &__link{
+            color: white;
+            &:hover{
+                border-bottom: 1px solid white;
+                padding-bottom: 4px;
+            }
+        }
+    }
+    .connection{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: space-between;
+        &__social{
+            display: flex;
+            width: 150px;
+            justify-content: space-between;
+            margin: 30px 0 15px;
+            &-item{
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100%;
+            }
+        }
+
+        &__contacts{
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 30px;
+            a{
+                color: white;
+            }
+            &::before{
+                content: url('../icons/phone-white.svg');
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                position: relative;
+                top: 5px;
+            }
+        }
+
+        &__signup{
+            width: 95px;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        &__button{
+            border: none;
+            background: transparent;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 14px;
+            color: white;
+            padding: 0 0 8px;
+            box-sizing: border-box;
+            &:hover{
+                border-bottom: 2px solid white;
+                font-weight: 500;
+            }
+        }
+    }
+}

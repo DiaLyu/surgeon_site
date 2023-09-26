@@ -1,0 +1,13 @@
+@media (max-width: 1400px){
+    .about{
+        .container{
+            justify-content: space-between;
+        }
+        &__data{
+            width: 500px;
+        }
+        &__photo{
+            right: 25%;
+        }
+    }
+}

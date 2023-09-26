@@ -1,0 +1,20 @@
+@media (max-width: 1400px){
+    .offer{
+        &__title{
+            font-size: 46px;
+            margin-left: 120px;
+        }
+        img {
+            height: 509px;
+        }
+        &__form {
+            padding: 170px 59px 50px;
+            select, input{
+                width: 420px;
+                height: 56px;
+                padding: 0 30px;
+                font-size: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,122 @@
+.articles{
+    padding: 70px 0 108px;
+    background: $gray-bg;
+    &__container{
+        display: flex;
+    }
+    &__wrapper{
+        width: 1085px;
+        position: relative;
+        color: black;
+        font-size: 25px;
+        font-weight: 300;
+        letter-spacing: 1.12px;
+        margin-right: 28px;
+    }
+    &__bg-photo{
+        position: absolute;
+        bottom: 111px;
+        right: 0;
+    }
+    &__title{
+        position: relative;
+        z-index: 3;
+        font-size: 58px;
+        font-weight: 550;
+        letter-spacing: 5.22px;
+        margin-bottom: 68px;
+    }
+    &__descr{
+        position: relative;
+        z-index: 3;
+        width: 90%;
+        p {
+            color: $black-bg;
+            margin-bottom: 30px;
+            &:nth-child(2){
+                width: 760px;
+            }
+        }
+    }
+
+    &__title-list{
+        color: $dark-blue;
+        font-size: 25px;
+        font-weight: 550;
+        letter-spacing: 1.12px;
+        margin: 37px 0 19px;
+    }
+    &__indications{
+        margin-left: 21px;
+        margin-bottom: 78px;
+        &__item{
+            line-height: 32px;
+            color: $black-bg;
+        }
+    }
+    &__directions {
+        padding-left: 68px;
+        width: 360px;
+        &__item{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 21px;
+            opacity: 50%;
+            cursor: pointer;
+            &-pnkt{
+                display: flex;
+                align-items: center;
+                position: relative;
+                margin-bottom: 26px;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    background: $dark-gray;
+                    width: 47px;
+                    height: 2px;
+                    left: -68px;
+                    top: 50%;
+                }
+            }
+            img{
+                width: 83px;
+                height: 83px;
+                margin-right: 21px;
+            }
+            span{
+                font-size: 41px;
+                font-weight: 300;
+                letter-spacing: 0.82px;
+                text-transform: uppercase;
+            }
+        }
+        &__active {
+            opacity: 100%;
+        }
+        &__themes{
+            padding-left: 40px;
+            list-style-type: none;
+            width: 190px;
+            position: relative;
+            right: -100px;
+        }
+        &__theme{
+            position: relative;
+            margin-bottom: 35px;
+            font-size: 25px;
+            font-weight: 300;
+            letter-spacing: 0.50px;
+            text-transform: uppercase;
+            word-wrap: break-word;
+            &::before{
+                content: '';
+                position: absolute;
+                background: $dark-gray;
+                width: 33px;
+                height: 2px;
+                left: -40px;
+                top:  14px;
+            }
+        }
+    }
+}

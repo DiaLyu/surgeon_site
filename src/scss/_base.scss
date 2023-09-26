@@ -108,6 +108,16 @@ a {
     }
 }
 
+.pink{
+    color: $ping-bg;
+    &::before{
+        background: $ping-bg;
+    }
+    span {
+        color: $ping-bg;
+    }
+}
+
 .video-foreground{
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
@@ -137,4 +147,9 @@ a {
     letter-spacing: 2.25px;
     text-transform: uppercase;
     border: none;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
 }

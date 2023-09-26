@@ -1,0 +1,35 @@
+@media (max-width: 1440px) {
+    .preview{
+        &__slider {
+            &-counter{
+                right: 10px;
+            }
+            &-line{
+                width: 80px;
+            }
+        }
+        &__slide{
+            &__descr{
+                width: 670px;
+            }
+            img {
+                height: 470px;
+                left: -190px;
+                top: 88px;
+            }
+            &-line{
+                width: 80px;
+            }
+        }
+        &__sidepanel{
+            right: 10px;
+        }
+        &__circles{
+            &__item{
+                img{
+                    height: 120px;
+                }
+            }
+        }
+    }
+}

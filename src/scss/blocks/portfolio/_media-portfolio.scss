@@ -1,0 +1,26 @@
+@media (max-width: 1400px){
+    .portfolio{
+        #portfolio__slider{
+            order: 2;
+        }
+        #portfolio__directions{
+            order: 1;
+        }
+        &__wrapper{
+            flex-direction: column;
+        }
+        &__slider{
+            margin: 0 auto;
+        }
+        &__directions{
+            padding-left: 0;
+            display: flex;
+            justify-content: space-between;
+            &__item{
+                &::before{
+                    display: none;
+                }
+            }
+        }
+    }
+}

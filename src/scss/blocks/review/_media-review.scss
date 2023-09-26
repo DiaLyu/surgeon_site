@@ -1,0 +1,15 @@
+@media (max-width: 1400px){
+    .reviews{
+        &__item{
+            width: 830px;
+        }
+        &__directions{
+            padding-left: 0;
+            &__item{
+                &::before{
+                    display: none;
+                }
+            }
+        }
+    }
+}

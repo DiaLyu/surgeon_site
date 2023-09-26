@@ -1,0 +1,25 @@
+@media (max-width: 1400px){
+    .articles{
+        &__directions{
+            padding-left: 0;
+            &__item{
+                &::before{
+                    display: none;
+                }
+                &-pnkt{
+                    &::before{
+                        display: none;
+                    }
+                }
+            }
+        }
+        &__descr{
+            width: 80%;
+            p{
+                &:nth-child(2){
+                    width: 600px;
+                }
+            }
+        }
+    }
+}
