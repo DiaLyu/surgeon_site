@@ -1,0 +1,27 @@
+@media (max-width: 1200px){
+    .order-call{
+        form{
+            width: 600px;
+            input{
+                width: 289px;
+                height: 60px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .order-call{
+        padding: 60px 0 40px;
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            input{
+                margin-bottom: 20px;
+                height: 55px;
+            }
+        }
+    }
+}

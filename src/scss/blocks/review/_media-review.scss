@@ -13,3 +13,18 @@
         }
     }
 }
+
+@media (max-height: 1200px){
+    .reviews{
+        &__item{
+            width: 90%;
+        }
+        &__directions{
+            &__item{
+                span{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

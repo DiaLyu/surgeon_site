@@ -7,3 +7,28 @@
         }
     }
 }
+
+@media (max-width:1200px){
+    header{
+        .connection{
+            &__logo{
+                img{
+                    height: 80px;
+                }
+            }
+            form{
+                width: 275px;
+            }
+            &__contacts{
+                font-size: 14px;
+                line-height: 25px;
+            }
+            &__button{
+                font-size: 13px;
+            }
+        }
+        .menu{
+            font-size: 15px;
+        }
+    }
+}

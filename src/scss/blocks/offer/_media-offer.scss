@@ -18,3 +18,22 @@
         }
     }
 }
+
+@media (max-width: 1200px){
+    .offer{
+        &__title{
+            font-size: 26px;
+            margin-left: 58px;
+            width: 420px;
+        }
+        img{
+            display: none;
+        }
+        &__form{
+            padding: 197px 59px 50px;
+            select, input{
+                margin-bottom: 24px;
+            }
+        }
+    }
+}

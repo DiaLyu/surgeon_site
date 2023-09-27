@@ -17,3 +17,20 @@
         }
     }
 }
+
+@media (max-width: 1200px){
+    .questions{
+        &__bg{
+            width: 39%;
+        }
+        &__title{
+            font-size: 35px;
+        }
+        &__form{
+            input, select {
+                width: 485px;
+                font-size: 20px;
+            }
+        }
+    }
+}

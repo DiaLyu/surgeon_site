@@ -9,3 +9,23 @@
         }
     }
 }
+
+@media (max-width: 1200px){
+    .service{
+        padding-top: 68px; 
+        .section-title{
+            transform: rotate(-90deg) translate(-20%, -56%);
+        }
+        &__list{
+            &__item{
+                font-size: 30px;
+                margin-bottom: 26px;
+                &::before{
+                    width: 40px;
+                    height: 2px;
+                    top: 15px
+                }
+            }
+        }
+    }
+}

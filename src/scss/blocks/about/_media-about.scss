@@ -7,7 +7,55 @@
             width: 500px;
         }
         &__photo{
-            right: 25%;
+            right: 30%;
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .about{
+        padding: 70px 0;
+        .container{
+            flex-direction: column;
+        }
+        &__data{
+            width: 100%;
+            margin-bottom: 40px;
+            &__name{
+                font-size: 44px;
+                line-height: 50px;
+                margin-bottom: 30px;
+            }
+            &__post{
+                font-size: 20px;
+                margin-bottom: 35px;
+                width: 80%;
+            }
+            &__descr{
+                font-size: 20px;
+            }
+        }
+        &__fact{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            &__descr{
+                font-size: 20px;
+                line-height: 25px;
+            }
+            &__count{
+                font-size: 60px;
+            }
+        }
+
+        &__bcgr-right{
+            top: unset;
+            height: 50%;
+        }
+        &__photo{
+            right: 0;
+            img{
+                height: 635px;
+            }
         }
     }
 }

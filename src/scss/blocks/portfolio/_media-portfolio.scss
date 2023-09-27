@@ -24,3 +24,28 @@
         }
     }
 }
+
+@media (max-width: 1200px){
+    .portfolio{
+        padding: 60px 0;
+        &__slider{
+            width: 100%;
+        }
+        &__slide{
+            &__f-active{
+                left: 13%;
+            }
+        }
+
+        &__directions{
+            &__item{
+                img{
+                    margin-right: 10px;
+                }
+                span{
+                    font-size: 25px
+                }
+            }
+        }
+    }
+}

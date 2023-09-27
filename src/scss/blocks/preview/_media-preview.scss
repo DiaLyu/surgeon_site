@@ -33,3 +33,53 @@
         }
     }
 }
+
+@media (max-width: 1200px) {
+    .preview{
+        padding: 37px 0 37px 0;
+        &__slider{
+            &-counter{
+                top: 18px;
+            }
+            &-line{
+                width: 70px;
+                margin-right: 0px;
+            }
+        }
+        &__slide{
+            &__content{
+                margin-top: 0;
+            }
+            &__title{
+                font-size: 46px;
+                width: 435px;
+                margin-bottom: 45px;
+            }
+            &__descr{
+                width: 580px;
+                font-size: 20px;
+                line-height: 26px;
+            }
+            img{
+                height: 400px;
+                left: -225px;
+                top: 87px;
+            }
+        }
+        &__sidepanel{
+            &__text{
+                a{
+                    transform: rotate(90deg) translate(105%, 299%);
+                }
+            }
+        }
+        &__circles{
+            &__item{
+                font-size: 15px;
+                img{
+                    height: 110px;
+                }
+            }
+        }
+    }
+}
