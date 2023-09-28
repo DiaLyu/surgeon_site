@@ -5,3 +5,23 @@
         }
     }
 }
+
+@media (max-height: 768px){
+    .link-price{
+        .section-title{
+            height: 240px;
+        }
+    }
+} 
+
+@media (max-height: 576px){
+    .link-price{
+        padding: 40px 0 50px;
+        .section-title{
+            height: 185px;
+            span{
+                left: 65px;
+            }
+        }
+    }
+}

@@ -29,3 +29,47 @@
         }
     }
 }
+
+@media (max-width: 992px){
+    .service{
+        &__list{
+            &__item{
+                font-size: 27px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .service{
+        &__list{
+            margin-left: 125px;
+            &__item{
+                font-size: 22px;
+                padding-left: 54px;
+                &::before{
+                    width: 30px;
+                    top: 11px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .service{
+        padding-top: 55px;
+        &__list{
+            margin-left: 108px;
+            &__item{
+                font-size: 19px;
+                padding-left: 38px;
+                margin-bottom: 24px;
+                &::before{
+                    width: 19px;
+                    top: 9px;
+                }
+            }
+        }
+    }
+}

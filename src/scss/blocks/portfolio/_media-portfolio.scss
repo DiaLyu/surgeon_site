@@ -49,3 +49,106 @@
         }
     }
 }
+
+@media (max-width: 992px){
+    .portfolio{
+        &__slider{
+            height: 330px;
+        }
+        &__slide{
+            img{
+                width: 500px;
+            }
+            &__f-active{
+                left: 15%;
+            }
+        }
+
+        &__directions{
+            &__item{
+                img{
+                    width: 75px;
+                    height: 75px;
+                }
+                span{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .portfolio{
+        &__slider{
+            height: 290px;
+        }
+        &__slide{
+            img {
+                width: 440px;
+            }
+            &__f-active{
+                left: 9%;
+            }
+        }
+        &__directions{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            &__item{
+                img{
+                    width: 70px;
+                    height: 70px;
+                }
+                span{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px){
+    .portfolio{
+        &__slide{
+            &__f-active{
+                top: 0;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                margin: auto;
+                img {
+                    width: auto;
+                    height: 290px;
+                    display: block;
+                    margin: 0 auto;
+                    border: none;
+                }
+            }
+        }
+        &__directions{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@media (max-width: 400px){
+    .portfolio{
+        &__wrapper{
+            margin-bottom: 30px;
+        }
+        &__slider{
+            height: 210px;
+        }
+        &__slide{
+            img{
+                width: 320px;
+            }
+            &__f-active{
+                img{
+                    height: 210px;
+                }
+            }
+        }
+    }
+}
