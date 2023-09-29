@@ -1,42 +1,42 @@
-@import 'libs/font';
-@import 'variables/variables';
+@import './libs/font';
+@import './variables/variables';
 @import './base';
 @import './media-base';
 
-@import 'blocks/header/header';
-@import 'blocks/header/media-header';
+@import './blocks/header/header';
+@import './blocks/header/media-header';
 
-@import 'blocks/preview/preview';
-@import 'blocks/preview/media-preview';
+@import './blocks/preview/preview';
+@import './blocks/preview/media-preview';
 
-@import 'blocks/about/about';
-@import 'blocks/about/media-about';
+@import './blocks/about/about';
+@import './blocks/about/media-about';
 
-@import 'blocks/offer/offer';
-@import 'blocks/offer/media-offer';
+@import './blocks/offer/offer';
+@import './blocks/offer/media-offer';
 
-@import 'blocks/service_block/service_block';
-@import 'blocks/service_block/media-service_block';
+@import './blocks/service_block/service_block';
+@import './blocks/service_block/media-service_block';
 
-@import 'blocks/portfolio/portfolio';
-@import 'blocks/portfolio/media-portfolio';
+@import './blocks/portfolio/portfolio';
+@import './blocks/portfolio/media-portfolio';
 
-@import 'blocks/link-price/link-price';
-@import 'blocks/link-price/media-link-price';
+@import './blocks/link-price/link-price';
+@import './blocks/link-price/media-link-price';
 
-@import 'blocks/review/review';
-@import 'blocks/review/media-review';
+@import './blocks/review/review';
+@import './blocks/review/media-review';
 
-@import 'blocks/questions/questions';
-@import 'blocks/questions/media-questions';
+@import './blocks/questions/questions';
+@import './blocks/questions/media-questions';
 
-@import 'blocks/articles/articles';
-@import 'blocks/articles/media-articles';
+@import './blocks/articles/articles';
+@import './blocks/articles/media-articles';
 
-@import 'blocks/order-call/order-call';
-@import 'blocks/order-call/media-order-call';
+@import './blocks/order-call/order-call';
+@import './blocks/order-call/media-order-call';
 
-@import 'blocks/footer/footer';
-@import 'blocks/footer/media-footer';
+@import './blocks/footer/footer';
+@import './blocks/footer/media-footer';
 
-@import 'blocks/modal/modal';
+@import './blocks/modal/modal';
