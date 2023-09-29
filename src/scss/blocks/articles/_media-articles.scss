@@ -138,11 +138,18 @@
 }
 
 @media (max-width: 768px){
+    .articles{
+        &__descr{
+            p:nth-child(2) {
+                width: 100%;
+            }
+        }
+    }
     .hide{
         display: none;
     }
 }
-
+ 
 @media (max-width: 576px){
     .articles{
         &__descr{

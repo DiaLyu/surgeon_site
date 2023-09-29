@@ -1,0 +1,75 @@
+.overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(0,0,0, .56);
+} 
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 584px;
+    min-height: 632px;
+    background-color: #b8dde0;
+    padding: 98px 59px 58px 59px;
+    &__close {
+        position: absolute;
+        top: 24px;
+        right: 24px;
+        font-size: 43px;
+        line-height: 21px;
+        color: #5f6366;
+        cursor: pointer;
+    }
+    &__subtitle {
+        font-size: 41px;
+        font-weight: 300;
+        letter-spacing: 3.69px;
+        margin-bottom: 51px;
+        display: flex;
+        justify-content: center;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        input, select, button{
+            height: 78px;
+            border: none;
+            margin-bottom: 24px;
+            padding: 0 30px;
+            font-size: 25px;
+            font-weight: 300;
+            letter-spacing: 0.50px;
+            width: 100%;
+        }
+        button{
+            color: white;
+            letter-spacing: 2.25px;
+            text-transform: uppercase;
+            background: #4C6E9A;
+        }
+    }
+    
+    &_mini {
+        min-height: 140px;
+        padding: 62px 59px 58px 59px; 
+    }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+
+#consultation, #thanks {
+    display: none;
+}

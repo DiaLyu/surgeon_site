@@ -537,5 +537,33 @@
         </div>
     </footer>
 
+    <div class="overlay">
+        <div class="modal" id="record">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Записаться</div>
+            <form class="feed-form feed-form_mt25" action="#">
+                <select name="direction" id="direction" placeholder="Направление операции">
+                    <option value="operation1">Направление 1</option>
+                    <option value="operation2">Направление 1</option>
+                    <option value="operation3">Направление 1</option>
+                    <option value="operation4">Направление 1</option>
+                </select>
+                <input name="name" placeholder="Ваше имя" type="text"> 
+                <input name="phone" placeholder="Ваш телефон">
+
+                <button class="button button_submit">получить скидку</button>
+            </form>
+        </div>
+
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Спасибо за вашу заявку!</div>
+            <div class="modal__descr">Наш менеджер свяжется с вами 
+                в ближайшее время!</div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
-</html>
+</html> 
